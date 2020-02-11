@@ -1,0 +1,9 @@
+.film-detail-block {
+    min-width: 25vw;
+    min-height: 25vw;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: .5rem;
+    text-align: center;
+}
+

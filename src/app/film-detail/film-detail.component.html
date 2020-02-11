@@ -1,0 +1,14 @@
+<ng-container *ngIf="!loading">
+    <h1>Star Wars</h1>
+    <h2>Episode: {{film.episode_id}}</h2>
+    <h3>{{film.title}}</h3>
+
+    <div class="crawl">
+        <p *ngFor="let text of crawlData">{{text}}</p>
+    </div>
+</ng-container>
+
+<div *ngIf="loading">
+    Loading...
+</div>
+
