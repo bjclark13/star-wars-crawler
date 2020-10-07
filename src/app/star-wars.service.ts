@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class StarWarsService {
-  baseUrl = "https://swapi.co/api/films";
+  baseUrl = "https://swapi.dev/api/films";
   
   constructor(private http: HttpClient) { }
 
